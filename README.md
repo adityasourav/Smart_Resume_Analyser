@@ -23,13 +23,23 @@ An AI-powered resume analysis system built using FastAPI and NLP techniques.
 
 ## Project Structure
 
-smart_resume_analyser/
+```text
+Smart_Resume_Analyser/
 │
 ├── app/
+│   ├── main.py
+│   ├── routes.py
+│   ├── resume_parser.py
+│   ├── jd_matcher.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── __init__.py
+│
 ├── uploads/
-├── requirements.txt
-└── README.md
-
+├── README.md
+└── .gitignore
+```
 ## Installation
 
 ```bash
